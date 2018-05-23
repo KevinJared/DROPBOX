@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" initial-scale=1.0>
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,46 +15,33 @@
 
 <body>
   <div class="container-fluid">
-    <div class="well" class="login">
+    <div class="header" style="text-align: center; padding-top: 20px;">
+      <img src="image/logo.png" alt="" width="130px">
+      <p>DropBox</p>
+    </div>
+    <div class="well">
       <h1>LOGIN</h1>
       <button id="myBtn">LOGIN</button>
       <div id="myModal" class="modal">
         <div class="modal-content">
-          <h1>LOGIN PAGE</h1>
+          <h1>PLEASE FILL IN YOUR DETAILS</h1>
+          <p style="color:red;"><strong>*All fields are mandatory</strong></p>
           <span class="close">&times;</span>
-          <form action="home.html">
-            <div class="form-group">
-              <label for="name">Name:</label>
-              <input type="text" class="form-control" required>
-            </div>
-            <div class="form-group">
-              <label for="email">Email address:</label>
-              <input type="email" class="form-control" required>
-            </div>
-            <button type="submit" class="btn btn-default">LOGIN</button>
-          </form>
+          <div id="login">
+            <form action="home.html">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <button type="submit" class="btn btn-default">LOGIN</button>
+            </form>
+          </div>
+
         </div>
-        <script type="text/javascript">
-          var modal = document.getElementById('myModal');
-
-          var btn = document.getElementById("myBtn");
-          var span = document.getElementsByClassName("close")[0];
-
-          btn.onclick = function() {
-            modal.style.display = "block";
-          }
-
-          span.onclick = function() {
-            modal.style.display = "none";
-          }
-
-          window.onclick = function(event) {
-            if (event.target == modal) {
-              modal.style.display = "none";
-            }
-          }
-        </script>
-
       </div>
     </div>
   </div>
