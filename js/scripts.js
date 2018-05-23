@@ -1,5 +1,5 @@
 $(document).ready(function() {
-        $("#blanks form").submit(function() {
+        $("#myform").submit(function() {
           $(".name").append("");
           $(".email").append("");
 
