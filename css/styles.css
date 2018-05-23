@@ -24,6 +24,7 @@
   margin-top: 100px;
   margin-left: 30%;
   margin-right: 30%;
+  text-align: center;
 }
 .modal {
     display: none;
@@ -42,6 +43,7 @@
     border: 1px solid #888;
     width: 70%;
     height: 350px;
+    text-align: left;
 }
 .row{
   padding: 15px;
