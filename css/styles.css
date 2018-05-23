@@ -1,6 +1,8 @@
 .sidenav{
   padding-left: 10px;
-  padding: 20px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 .sidenav a:link{
   color: grey;
@@ -19,7 +21,6 @@
   text-decoration:none;
 }
 .well{
-  display: -webkit-flex;
   margin-top: 100px;
   margin-left: 30%;
   margin-right: 30%;
@@ -81,7 +82,7 @@ div.desc {
     text-align: center;
 }
 .footer{
-  padding-top: 50vh;
+  padding-top: 32vh;
   text-align: center;
 }
 .footer h4{
