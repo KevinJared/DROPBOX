@@ -20,11 +20,15 @@ $(document).ready(function() {
   }
 
   $("#login form").submit(function() {
-    var name = $("input#name").val();
-    var email = $("input#email").val();
+    var name = document.getElementById("name");
+    var email = document.getElementsById("email");
 
-    $(".name").append(nameInput);
-    $(".email").append(emailInput);
+    name.submit = function(event) {
+      $("#name").append(nameInput);
+    }
+    email.submit = function(event) {
+      $("#email").append(emailInput);
+    }
 
   });
 });
