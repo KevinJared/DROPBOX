@@ -19,3 +19,13 @@ $(document).ready(function() {
     }
   }
 });
+
+$(document).ready(function() {
+  $("#login form").submit(function(event) {
+    var nameInput = $("input#name").val();
+    var emailInput = $("input#email").val();
+
+    $(".name").appendTo(nameInput);
+    $(".email").appendTo(emailInput);
+  });
+});
