@@ -27,5 +27,11 @@ $(document).ready(function() {
 
     $(".name").append(nameInput);
     $(".email").append(emailInput);
+
+    $(".big-wrapper").show();
+
+    $(document).submit(function(){
+        $('.container-fluid').hide();
+    });
   });
 });
