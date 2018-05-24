@@ -1,6 +1,5 @@
 .sidenav{
   padding-left: 10px;
-  padding-left: 10px;
   padding-bottom: 30px;
   padding-top: 20px;
 }
@@ -50,6 +49,9 @@
 }
 .details{
   float: right;
+}
+.big-wrapper {
+  display: none;
 }
 #modifyitems{
   padding-left: 30%;

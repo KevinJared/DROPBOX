@@ -18,17 +18,17 @@ $(document).ready(function() {
       modal.style.display = "none";
     }
   }
+});
+$(document).ready(function() {
+  $("#login form").submit(function(event) {
+    var nameInput = $("input#name").val();
+    var emailInput = $("input#email").val();
 
-  $("#login form").submit(function() {
-    var name = document.getElementById("name");
-    var email = document.getElementsById("email");
+    $(".name").append(nameInput);
+    $(".email").append(emailInput);
 
-    name.submit = function(event) {
-      $("#name").append(nameInput);
-    }
-    email.submit = function(event) {
-      $("#email").append(emailInput);
-    }
+    $(".big-wrapper").show();
 
+    event.preventDefault();
   });
 });
