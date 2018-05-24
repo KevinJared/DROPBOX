@@ -25,7 +25,7 @@ $(document).ready(function() {
     var nameInput = $("input#name").val();
     var emailInput = $("input#email").val();
 
-    $(".name").appendTo(nameInput);
-    $(".email").appendTo(emailInput);
+    $(".name").append(nameInput);
+    $(".email").append(emailInput);
   });
 });
