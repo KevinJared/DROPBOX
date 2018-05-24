@@ -29,6 +29,8 @@ $(document).ready(function() {
     $(".email").append(emailInput);
 
     $(".big-wrapper").show();
+    
+    event.preventDefault();
 
     $(document).submit(function() {
       $('.container-fluid').hide();
