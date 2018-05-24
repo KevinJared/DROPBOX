@@ -31,6 +31,7 @@ $(document).ready(function() {
     $(".big-wrapper").show();
 
     $(document).submit(function(){
+
         $('.container-fluid').hide();
     });
   });
