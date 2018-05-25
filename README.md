@@ -11,4 +11,4 @@ the website was created using HTML and CSS , javascript, jquery
 In case of any problems while running the website contact kevinjaredkip@gmail.com  
 ### License
 *The website is licensed using MIT*
-Copyright (c) 2018 **Moringa School**
+Copyright (c) 2018 **Kevin Jared**
