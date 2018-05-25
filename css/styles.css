@@ -74,7 +74,9 @@ div.img {
 div.img:hover {
     border: 1px solid #7777;
     opacity: 0.5;
+
 }
+
 div.img img {
     width: 100%;
     height: auto;
